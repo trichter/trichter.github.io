@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<title>trichter GitHub projects</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style>
+  a { text-decoration:none; }
+  div.cards { max-width:500px; margin:auto; }
+  hr { max-width:200px; margin:auto; }
+  img.tiny { width:30px; }
+  img.resp1 { width: 100%; max-width:150px; margin:auto; }
+  img.resp2 { width: 100%; max-width:300px; margin:auto; }
+  img.resp3 { width: 100%; max-width:400px; margin:auto; }
+  .column { width: 100%; padding: 20px; }
+  .align1 { }
+  .align2 { }
+  @media screen and (min-width: 992px) {
+    .align1 { float: right; }
+    .align2 { float: left; }
+    .column { float: left; width: 50%; }
+    }
+</style>
+</head>
+
+
+<body>
+<div class="w3-container w3-bar w3-black">
+  <header>
+    <a href="https://github.com/trichter" >@trichter</a>
+  </header>
+  <a href="#software" class="w3-bar-item w3-button">
+    <i class="w3-xxlarge material-icons">computer</i>
+  </a>
+  <a href="#research" class="w3-bar-item w3-button">
+    <i class="w3-xxlarge material-icons">import_contacts</i>
+  </a>
+  <a href="https://nbviewer.jupyter.org/github/trichter/notebooks/tree/master/" class="w3-bar-item w3-button">
+    <img src="https://raw.githubusercontent.com/jupyter/jupyter.github.io/master/assets/main-logo.svg" class="tiny w3-grayscale-max" alt="NB">
+  </a>
+  <a href="https://scholar.google.com/citations?user=SJXF3mwAAAAJ" class="w3-bar-item w3-button">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" class="w3-grayscale-max tiny" alt="GS">
+  </a>
+</div>
+
+
+<div class="column">
+<div class="cards align1 w3-container w3-text-grey w3-section" id="software">
+  <h2 class="w3-container w3-margin-top">Scintific Software</h2>
+  <hr class="w3-container w3-margin-bottom">
+
+  <div class="w3-container w3-card w3-section">
+  <a href="https://github.com/trichter/rf" >
+    <h5 >Receiver function calculation in seismology</h5>
+    <div class="w3-row">
+    <div class="w3-container w3-third">
+      <img src="https://raw.githubusercontent.com/trichter/rf/master/docs/_static/logo_rf.svg" class="resp1">
+    </div>
+    <div class="w3-container w3-twothird">
+      <p>rf is a Python framework for receiver function analysis based upon the ObsyPy library</p>
+    </div></div>
+  </a></div>
+
+  <div class="w3-container w3-card w3-section">
+  <a href="https://github.com/trichter/yam" >
+    <h5 >Seismic monitoring with ambient noise</h5>
+    <div class="w3-row">
+    <div class="w3-container w3-third">
+      <img src="https://raw.githubusercontent.com/trichter/yam/master/docs/_static/yam_logo.png" class="resp1">
+    </div>
+    <div class="w3-container w3-twothird">
+      <p>yam is a tool to calculate ambient noise cross-correlation functions and use these for monitoring the seismic velocity</p>
+    </div></div>
+  </a></div>
+
+  <div class="w3-container w3-card w3-section">
+  <a href="https://github.com/trichter/qopen" >
+    <img src="https://raw.githubusercontent.com/trichter/misc/master/logos/logo_qopen.png" class="resp3 w3-margin-top">
+    <h5>Inrinsic and scattering Q from envelope inversion</h5>
+  </a></div>
+
+  <div class="w3-container w3-card w3-section">
+  <a href="https://github.com/obspy/obspy" >
+    <h5>obspyh5</h5>
+    <p>HDF5 write/read support for ObsPy</p>
+  </a></div>
+
+  <div class="w3-container w3-card w3-section">
+  <a href="https://github.com/obspy/obspy" >
+    <img src="https://camo.githubusercontent.com/5be343ed266374f6108049a952b8be81e984ba27/68747470733a2f2f7261772e6769746875622e636f6d2f6f627370792f776562736974652f6d61737465722f6c6f676f2f6f627370795f6c6f676f5f66756c6c5f686967687265732e706e67" class="resp3 w3-margin-top">
+    <p>Regular contributor to widely used ObsPy library and other projects</p>
+  </a></div>
+
+</div></div>
+
+
+<div class="column">
+<div class="cards align2 w3-container w3-text-grey w3-section" id="research">
+  <h2 class="w3-container">Reproducible Research</h2>
+  <hr class="w3-container">
+
+  <div class="w3-container w3-card w3-section">
+  <a href="https://github.com/trichter/inter_source_interferometry">
+    <div class="w3-row">
+    <div class="w3-container w3-third">
+      <img src="https://github.com/trichter/inter_source_interferometry/raw/master/figs/method.svg" class="resp1 w3-padding-16">
+    </div>
+    <div class="w3-container w3-twothird w3-left-align">
+      <h5>Inter-source interferometry with cross-correlation of coda waves (Eulenfeld, 2020)</h5>
+    </div></div>
+  </a></div>
+
+  <div class="w3-container w3-card w3-section">
+  <a href="https://github.com/trichter/usattenuation">
+    <h5>Crustal intrinsic and scattering attenuation in the US (Eulenfeld and Wegler, 2017)</h5>
+    <div class="w3-center">
+      <img src="https://github.com/trichter/usattenuation/raw/master/visualization/Qviewer/data/Qi_08.5Hz_int.png" class="resp2 w3-padding-16">
+    </div>
+  </a></div>
+
+  <div class="w3-container w3-card w3-section">
+  <a href="https://nbviewer.jupyter.org/github/trichter/notebooks/blob/master/cross_correlation_okhotsk_coda.ipynb">
+    <h5>Cross-correlation of global earthquake coda (Eulenfeld, 2016)</h5>
+    <div class="w3-center">
+      <img src="https://github.com/trichter/misc/raw/master/img/okhotsk_coda_correlation.png" class="resp2 w3-padding-16">
+    </div>
+  </a></div>
+
+  <div class="w3-container w3-card w3-section">
+  <a href="https://nbviewer.jupyter.org/github/trichter/notebooks/blob/master/yam_velocity_variations_patcx/processing_patcx.ipynb">
+    <h5>Seismic velocity variations at station PATCX, Northern Chile (Richter et al., 2014)</h5>
+    <div class="w3-center">
+      <img src="https://github.com/trichter/misc/raw/master/img/yam_PATCX.png" class="resp2 w3-padding-16">
+    </div>
+  </a></div>
+
+</div></div>
+
+</body>
+</html>
